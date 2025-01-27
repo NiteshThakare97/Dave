@@ -512,9 +512,25 @@
 .elementor-10 .elementor-element.elementor-element-49ce149:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-49ce149>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #372584;
+    background-image: url("../../../../../images/02/Texture.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transition: all 0.3s ease-in-out; */
+    /* transition: background-size 0.5s ease; */
+    /* Smooth zoom effect */
 }
 
-.elementor-10 .elementor-element.elementor-element-49ce149::before,
+.elementor-10 .elementor-element.elementor-element-49ce149:not(.elementor-motion-effects-element-type-background):hover,
+.elementor-10 .elementor-element.elementor-element-49ce149>.elementor-motion-effects-container>.elementor-motion-effects-layer:hover {
+    background-size: 300%;
+    cursor: pointer;
+    -webkit-transition: all 5s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+
+
+/* .elementor-10 .elementor-element.elementor-element-49ce149::before,
 .elementor-10 .elementor-element.elementor-element-49ce149>.elementor-background-video-container::before,
 .elementor-10 .elementor-element.elementor-element-49ce149>.e-con-inner>.elementor-background-video-container::before,
 .elementor-10 .elementor-element.elementor-element-49ce149>.elementor-background-slideshow::before,
@@ -524,7 +540,8 @@
     background-image: url("../../../../../images/02/Texture.png");
     background-position: center center;
     background-size: cover;
-}
+    transition: all 0.3s ease-in-out;
+} */
 
 .elementor-10 .elementor-element.elementor-element-49ce149,
 .elementor-10 .elementor-element.elementor-element-49ce149::before {
@@ -2288,9 +2305,22 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-4d5be2d .eleme
 .elementor-10 .elementor-element.elementor-element-853da58:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-853da58>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #372584;
+    background-image: url("../../../../../images/02/Texture.png");
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
 }
 
-.elementor-10 .elementor-element.elementor-element-853da58::before,
+.elementor-10 .elementor-element.elementor-element-853da58:not(.elementor-motion-effects-element-type-background):hover,
+.elementor-10 .elementor-element.elementor-element-853da58>.elementor-motion-effects-container>.elementor-motion-effects-layer:hover {
+    background-size: 250%;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+
+/* .elementor-10 .elementor-element.elementor-element-853da58::before,
 .elementor-10 .elementor-element.elementor-element-853da58>.elementor-background-video-container::before,
 .elementor-10 .elementor-element.elementor-element-853da58>.e-con-inner>.elementor-background-video-container::before,
 .elementor-10 .elementor-element.elementor-element-853da58>.elementor-background-slideshow::before,
@@ -2301,7 +2331,7 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-4d5be2d .eleme
     background-position: center center;
     background-size: cover;
     opacity: 1;
-}
+} */
 
 .elementor-10 .elementor-element.elementor-element-853da58,
 .elementor-10 .elementor-element.elementor-element-853da58::before {
@@ -3991,6 +4021,12 @@ ul li {
     text-align: center;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+}
+
+#homesec9-2 .elementor-icon-list-icon:hover,
+#homesec10-2 .elementor-icon-list-icon:hover {
+    transform: scale(1.1);
 }
 
 #homesec10-2 .elementor-icon-list-icon {
@@ -4214,8 +4250,15 @@ ul li {
     padding: 0% 5%;
 }
 
+#home-mission img,
+#homesec2 .elementor-element-8aa94cc img {
+    transition: transform 2s ease;
+}
 
-/* Artboard CSS  */
+#home-mission img:hover,
+#homesec2 .elementor-element-8aa94cc img:hover {
+    transform: rotate(180deg);
+}
 
 .artboard,
 .artboard-1 {
@@ -4441,3 +4484,84 @@ only screen and (hover: none) {
 
 
 /* text animation css ends */
+
+
+/* Heartbeat animation starts */
+
+.heartbeat:hover {
+    -webkit-animation: heartbeat 1.5s ease-in-out both;
+    animation: heartbeat 1.5s ease-in-out both;
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+
+/* Heartbeat animation ends */
