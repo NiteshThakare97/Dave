@@ -2046,11 +2046,11 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-4d5be2d .eleme
 .elementor-10 .elementor-element.elementor-element-b80ad39 .elementskit-accordion.accoedion-primary .elementskit-card .elementskit-card-header>.elementskit-btn-link[aria-expanded="true"],
 .elementor-10 .elementor-element.elementor-element-b80ad39 .elementskit-accordion .elementskit-card-header>.elementskit-btn-link[aria-expanded=true],
 .elementor-10 .elementor-element.elementor-element-b80ad39 .elementskit-accordion.floating-style .elementskit-card .elementskit-btn-link[aria-expanded="true"] {
-    background-color: #3f56f1;
+    background-color: #4b45a2;
 }
 
 .elementor-10 .elementor-element.elementor-element-b80ad39 .elementskit-accordion .elementskit-card-header .elementskit-btn-link .icon-open {
-    color: #3f56f1;
+    color: #4b45a2;
 }
 
 .elementor-10 .elementor-element.elementor-element-b80ad39 .elementskit-accordion .elementskit-card-header .elementskit-btn-link[aria-expanded="false"] svg path {
@@ -4565,3 +4565,339 @@ only screen and (hover: none) {
 
 
 /* Heartbeat animation ends */
+
+#homesec14 {
+    color: #fff;
+    background-image: url(../../../../../images/14/Section14BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#homesec14::before {
+    background-image: none;
+}
+
+#homesec14-texture {
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+#homesec14-texture img {
+    width: 100%;
+    height: inherit;
+}
+
+#homesec14>.e-con-inner {
+    padding: 3% 8% 2% 8%;
+}
+
+#homesec14 h2,
+#homesec14 h4,
+#homesec14 h5,
+#homesec14 h6 {
+    color: #fff;
+}
+
+#homesec14 h4,
+#homesec14 h6 {
+    font-weight: 400;
+}
+
+#homesec14 h3 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#homesec14-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0px;
+}
+
+#homesec14-title img {
+    width: 27%;
+    margin-bottom: 12px;
+}
+
+#homesec14 hr {
+    width: 450px;
+    height: 1px;
+    background-color: #4d3b9d;
+    opacity: 1;
+}
+
+#homesec16::before {
+    background-image: url(../../../../../images/16/Section16Image.png);
+    opacity: 1;
+}
+
+#homesec16>.e-con-inner {
+    padding: 2% 0% 10% 0%;
+}
+
+#homesec16 h2 {
+    color: #fff;
+    font-size: 38px;
+}
+
+
+/* Toenomics CSS  */
+
+.custom-accordion {
+    background: #dee6f1;
+    color: #3b495d;
+    font-family: 'Sunflower', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.custom-accordion>.item:nth-of-type(2),
+.custom-accordion>.item:nth-of-type(4) {
+    background: #edf2f9;
+}
+
+.custom-accordion>.item {
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    max-width: 30rem;
+}
+
+.custom-accordion>.item:last-of-type {
+    background: #462521;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+
+/* .custom-accordion>.item:last-of-type>.icon {
+    color: #FFFFFF;
+} */
+
+.custom-accordion>.item:nth-of-type(6) {
+    padding-bottom: 2rem;
+}
+
+.custom-accordion>.item>.icon {
+    color: #462521;
+    font-size: 2rem;
+}
+
+.custom-accordion>.item>.title {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 800px) and (min-height: 270px) {
+    .custom-accordion {
+        display: table;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 420px;
+        max-height: 1000px;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+    .custom-accordion>.item {
+        display: table-cell;
+        position: relative;
+        height: 100%;
+        padding: 2rem 1rem;
+        text-align: center;
+        transform-origin: 0 50%;
+        transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+    }
+    .custom-accordion>.item:hover:not(:last-of-type) {
+        transform: scaleX(2) translateX(-1px);
+        /* box-shadow: 0 0 3rem #301916; */
+        background: #fff;
+        border-color: transparent;
+    }
+    .custom-accordion>.item:hover+.item {
+        opacity: 0.1;
+    }
+    .custom-accordion>.item:hover+.item:last-of-type {
+        opacity: 0.1;
+        background: #8A6552;
+    }
+    .custom-accordion>.item:not(:last-of-type) {
+        border-right: 1px solid #edf2f9;
+    }
+    .custom-accordion>.item:last-of-type {
+        background: #edf2f9;
+        width: 25%;
+        border-radius: 0;
+    }
+    .custom-accordion>.item:last-of-type .heart-icon {
+        font-size: 6rem;
+    }
+    .custom-accordion>.item:hover:last-of-type .heart-icon {
+        transform: scale(2);
+    }
+    .custom-accordion>.item:last-of-type>.title {
+        transform: rotate(0) translateX(-30%) translateY(-2.5rem);
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .custom-accordion>.item:last-of-type>.title>.text {
+        left: 0rem;
+        padding: 0rem 1rem;
+        color: #33354e;
+    }
+    .custom-accordion>.item:last-of-type>.content {
+        opacity: 1;
+        transform: translateX(-50%) translateY(-50%);
+        width: 100%;
+    }
+    .custom-accordion>.item:hover:not(:last-of-type)>.icon {
+        transform: scaleX(0.5);
+    }
+    .custom-accordion>.item:hover:not(:last-of-type)>.title {
+        transform: scaleX(0.5) translateX(-30%);
+        background: #534a9e;
+        text-align: center;
+        padding: 21px;
+        color: #fff;
+    }
+    .custom-accordion>.item:hover:not(:last-of-type)>.title>.text {
+        transform: translateX(-50%);
+        left: 50%;
+        padding: 5px 0px;
+        color: aliceblue;
+    }
+    .custom-accordion>.item:hover:not(:last-of-type)>.content {
+        opacity: 1;
+    }
+    .custom-accordion>.item>.icon {
+        font-weight: 500;
+        font-size: 2rem;
+        transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+        color: #68768a;
+    }
+    .custom-accordion>.item>.title {
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        height: 1.5rem;
+        width: 200%;
+        text-align: left;
+        transform-origin: 0 50%;
+        transform: rotate(-90deg);
+        transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+        font-size: 1.2rem;
+    }
+    .custom-accordion>.item>.title>.text {
+        position: absolute;
+        left: 2rem;
+        bottom: 0;
+        white-space: nowrap;
+        transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        color: #68768a;
+    }
+    .custom-accordion>.item>.content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200%;
+        height: auto;
+        transform: translateX(-50%) translateY(-50%) scaleX(0.5);
+        transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+        opacity: 0;
+        padding: 1rem;
+        pointer-events: none;
+    }
+}
+
+.heart-icon {
+    color: #CA2E55;
+    font-size: 3rem;
+    transition: all 0.3s cubic-bezier(0.8, 0.16, 0.42, 0.89);
+}
+
+
+/* Toenomics CSS  */
+
+#tokenomics h3 {
+    margin-bottom: 15px;
+    color: #4c46a2;
+    text-align: left;
+}
+
+#tokenomics .content {
+    text-align: left;
+}
+
+#homesec15 .elementor-element-055ab40 {
+    --padding-inline-end: 0px;
+}
+
+#homesec15 h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 55px;
+}
+
+#homesec15>.e-con-inner {
+    padding: 4% 0%;
+    color: #000;
+}
+
+#homesec15::before {
+    background-image: url(../../../../../images/15/Section15BG.png);
+    background-position: bottom;
+    opacity: 1;
+}
+
+#homesec15-1,
+#homesec15-2 {
+    padding: 0% 8% 3% 29%;
+}
+
+#homesec15-1 img,
+#homesec15-2 img {
+    margin-bottom: 10px;
+}
+
+#homesec15-img {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+}
+
+#homesec17 {
+    background-image: url(../../../../../images/17/Section17BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#homesec17 h4 {
+    color: #cf2b92;
+    margin-bottom: 4px;
+}
+
+#homesec17 p {
+    margin-bottom: 20px;
+    width: 27%;
+}
+
+#homesec17 h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+#homesec17>.e-con-inner {
+    padding: 3% 0% 6%;
+}
+
+#homesec17-grap {
+    position: absolute;
+}
