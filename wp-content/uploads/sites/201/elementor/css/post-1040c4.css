@@ -4933,6 +4933,30 @@ only screen and (hover: none) {
     content: url(../../../../../images/18/BigIcon/03Big.png);
 }
 
+#sec19icon1::before {
+    content: url(../../../../../images/19/SmallIcon/01.png);
+}
+
+.dt-sc-icon-box.type12:hover .icon-wrapper>#sec19icon1::before {
+    content: url(../../../../../images/19/BigIcon/01Big.png);
+}
+
+#sec19icon2::before {
+    content: url(../../../../../images/19/SmallIcon/02.png);
+}
+
+.dt-sc-icon-box.type12:hover .icon-wrapper>#sec19icon2::before {
+    content: url(../../../../../images/19/BigIcon/02Big.png);
+}
+
+#sec19icon3::before {
+    content: url(../../../../../images/19/SmallIcon/03.png);
+}
+
+.dt-sc-icon-box.type12:hover .icon-wrapper>#sec19icon3::before {
+    content: url(../../../../../images/19/BigIcon/03Big.png);
+}
+
 #homesec18 {
     padding: 7% 0% 5% 0%;
 }
@@ -4944,14 +4968,118 @@ only screen and (hover: none) {
 
 #homesec18-1text h2 {
     text-align: left;
-    font-size: 38px;
-    padding: 0% 3% 0% 2%;
+    font-size: 36px;
+    padding: 0% 7% 0% 2%;
+    font-weight: 700;
 }
 
 #homesec18-1text img {
     margin: -100px 0px 0px 0px;
 }
 
+#homesec19-1text img {
+    margin: -100px 0px 0px auto;
+}
+
+#homesec19-1text {
+    padding: 7% 0% 4%;
+}
+
 #homesec18 .vc_custom_1456385021110 .vc_column_container>.vc_column-inner {
     padding: 0%;
+}
+
+#homesec19-1text h2 {
+    text-align: end;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#homesec20 h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#homesec20 h2 {
+    font-size: 2.4em;
+    margin: 35px 0px 26px 0px;
+}
+
+#homesec20 ul li {
+    padding-bottom: 4px;
+    color: #4a4c63;
+}
+
+#homesec20 .wpb_content_element {
+    margin-bottom: 0px;
+}
+
+#roadmap-wrap ul {
+    margin-bottom: 15px;
+    padding-left: 4rem;
+}
+
+#roadmap-wrap ul li {
+    list-style: none;
+}
+
+#roadmap-wrap {
+    list-style: none;
+    margin: 0;
+    padding: 0% 0% 0% 14%;
+    position: relative;
+}
+
+#roadmap-wrap::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    background: #ebebeb;
+    position: absolute;
+    left: 14.6%;
+    top: 7px;
+    height: calc(100% - 23%);
+}
+
+#roadmap-wrap h6 {
+    position: relative;
+    padding-left: 6%;
+    font-size: 18px;
+}
+
+#roadmap-wrap h6::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #8b4edb;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    border-radius: 10px;
+}
+
+#homesec20 .vc_row {
+    display: flex;
+    align-items: center;
+}
+
+#homesec20 {
+    padding: 5% 0%;
+}
+
+#roadmap-text {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+}
+
+#roadmap-text h2 {
+    margin: 0px;
+    font-size: 220px;
+    font-weight: 100;
+    color: #edf2f9;
 }
