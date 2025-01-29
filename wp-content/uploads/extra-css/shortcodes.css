@@ -4176,7 +4176,7 @@ blockquote.type2.yellow cite::before {
 }
 
 .dt-sc-icon-box.type11 {
-    padding: 30px 30px 70px;
+    padding: 30px 37px 45px;
     margin: 50px 0px 0px;
     text-align: center;
 }
@@ -4192,7 +4192,7 @@ blockquote.type2.yellow cite::before {
 }
 
 .dt-sc-icon-box.type11 .icon-wrapper {
-    background: #2f3436 none repeat scroll 0 0;
+    /* background: #2f3436 none repeat scroll 0 0; */
     border-radius: 50%;
     display: block;
     height: 130px;
@@ -4202,7 +4202,7 @@ blockquote.type2.yellow cite::before {
     text-align: center;
     top: -100px;
     width: 130px;
-    border: solid 2px;
+    /* border: solid 2px; */
 }
 
 .dt-sc-icon-box.type11 .icon-wrapper span {
@@ -4252,6 +4252,10 @@ blockquote.type2.yellow cite::before {
     opacity: 1;
 }
 
+.dt-sc-icon-box.type11:hover .icon-content h4 {
+    color: #fff;
+}
+
 .dt-sc-icon-box.type11.two:before {
     opacity: 0.97;
 }
@@ -4280,6 +4284,7 @@ blockquote.type2.yellow cite::before {
     -webkit-box-shadow: inset 20px 0px 30px -20px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: inset 20px 0px 30px -20px rgba(0, 0, 0, 0.3);
     box-shadow: inset 20px 0px 30px -20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #2a1e60, #332572fa);
 }
 
 .dt-sc-icon-box.type12 .icon-wrapper {
@@ -4330,7 +4335,7 @@ blockquote.type2.yellow cite::before {
 .dt-sc-icon-box.type12.selected .icon-wrapper {
     position: absolute;
     left: 0px;
-    top: -10px;
+    top: -35px;
 }
 
 .dt-sc-icon-box.type12:hover .icon-wrapper span,
@@ -4362,7 +4367,7 @@ blockquote.type2.yellow cite::before {
 
 .dt-sc-icon-box.type12:hover,
 .dt-sc-icon-box.type12.selected {
-    background: #86898b;
+    background: linear-gradient(90deg, #5a63d6, #c24fec);
 }
 
 .dt-sc-icon-box.type13 {

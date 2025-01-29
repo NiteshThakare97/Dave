@@ -4900,4 +4900,58 @@ only screen and (hover: none) {
 
 #homesec17-grap {
     position: absolute;
+    right: 0%;
+    top: 14%;
+}
+
+#homesec16-2 .vc_custom_1456384931539 {
+    margin-top: -50px;
+    padding: 0% 12% 7% 12%;
+}
+
+#sec18icon1::before {
+    content: url(../../../../../images/18/Small-Icon/01.png);
+}
+
+.dt-sc-icon-box.type12:hover .icon-wrapper>#sec18icon1::before {
+    content: url(../../../../../images/18/BigIcon/01Big.png);
+}
+
+#sec18icon2::before {
+    content: url(../../../../../images/18/Small-Icon/02.png);
+}
+
+.dt-sc-icon-box.type12:hover .icon-wrapper>#sec18icon2::before {
+    content: url(../../../../../images/18/BigIcon/02Big.png);
+}
+
+#sec18icon3::before {
+    content: url(../../../../../images/18/Small-Icon/03.png);
+}
+
+.dt-sc-icon-box.type12:hover .icon-wrapper>#sec18icon3::before {
+    content: url(../../../../../images/18/BigIcon/03Big.png);
+}
+
+#homesec18 {
+    padding: 7% 0% 5% 0%;
+}
+
+#homesec18-1text {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#homesec18-1text h2 {
+    text-align: left;
+    font-size: 38px;
+    padding: 0% 3% 0% 2%;
+}
+
+#homesec18-1text img {
+    margin: -100px 0px 0px 0px;
+}
+
+#homesec18 .vc_custom_1456385021110 .vc_column_container>.vc_column-inner {
+    padding: 0%;
 }
