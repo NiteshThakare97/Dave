@@ -14586,3 +14586,9 @@ only screen and (min-resolution: 1.5dppx) {
 .dt_ajax_subscribe_msg .error-msg {
     color: #bd0404;
 }
+
+@media only screen and (max-width: 600px) {
+    .type9 .dt-sc-tabs-horizontal-frame-content {
+        padding: 40px 25px 30px 25px;
+    }
+}

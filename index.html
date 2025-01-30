@@ -4598,27 +4598,45 @@
 
                                                         <div class="elementor-widget-container">
 
-                                                            <form>
+                                                            <form action="javascript:void(0);" onsubmit="sendEmail()">
                                                                 <div class="mb-3">
-                                                                    <!-- <label for="exampleInputPassword1" class="form-label">Name</label> -->
-                                                                    <input type="text" placeholder="Your Name*" class="form-control" id="exampleInputPassword1">
+                                                                    <input type="text" placeholder="Your Name*" class="form-control" id="name">
                                                                 </div>
                                                                 <div class="mb-3">
-                                                                    <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
-                                                                    <input type="email" placeholder="E-mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                                    <input type="email" placeholder="E-mail" class="form-control" id="email" aria-describedby="emailHelp">
                                                                 </div>
 
                                                                 <div class="mb-3">
-                                                                    <!-- <label for="exampleInputEmail1" class="form-label">Subject</label> -->
-                                                                    <input type="text" placeholder="Subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                                    <input type="text" placeholder="Subject" class="form-control" id="msg_subject" aria-describedby="emailHelp">
                                                                 </div>
                                                                 <div class="mb-3">
-                                                                    <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-                                                                    <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                                    <textarea class="form-control" placeholder="Message" id="message" rows="3"></textarea>
                                                                 </div>
                                                                 <button type="submit" class="btn btn-primary">Submit</button>
                                                             </form>
 
+                                                            <script>
+                                                                function sendEmail() {
+                                                                    const name = document.getElementById('name').value;
+                                                                    const email = document.getElementById('email').value;
+                                                                    // Add more form field values as needed
+
+                                                                    const subject = document.getElementById('msg_subject').value;
+                                                                    const message = document.getElementById('message').value;
+
+                                                                    // Construct the mailto link for Gmail directly without mail-Id 
+                                                                    // const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=&su=${encodeURIComponent(subject)}&body=                        ${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
+
+                                                                    // // Open Gmail compose window with the mailto link
+                                                                    // window.open(mailtoLink);
+
+                                                                    // Construct the mail and send Mail directly to a particular mail Id.
+                                                                    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=support@dave.com&su=${encodeURIComponent                       (subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email)}`;
+
+                                                                    // Open Gmail compose window with the mailto link
+                                                                    window.open(mailtoLink);
+                                                                }
+                                                            </script>
                                                         </div>
                                                     </div>
                                                 </div>
