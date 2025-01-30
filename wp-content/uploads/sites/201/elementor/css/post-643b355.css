@@ -213,7 +213,7 @@
 .elementor-643 .elementor-element.elementor-element-9e70c2b a.hfe-sub-menu-item {
     font-family: var(--e-global-typography-f2ac151-font-family), Sans-serif;
     font-size: var(--e-global-typography-f2ac151-font-size);
-    font-weight: var(--e-global-typography-f2ac151-font-weight);
+    font-weight: 600;
     line-height: var(--e-global-typography-f2ac151-line-height);
     letter-spacing: var(--e-global-typography-f2ac151-letter-spacing);
     word-spacing: var(--e-global-typography-f2ac151-word-spacing);
@@ -241,7 +241,7 @@
 .elementor-643 .elementor-element.elementor-element-9e70c2b nav.hfe-dropdown-expandible,
 .elementor-643 .elementor-element.elementor-element-9e70c2b nav.hfe-dropdown .menu-item a.hfe-menu-item,
 .elementor-643 .elementor-element.elementor-element-9e70c2b nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-    background-color: var(--e-global-color-primary);
+    background-color: #4041a2;
 }
 
 .elementor-643 .elementor-element.elementor-element-9e70c2b .sub-menu a.hfe-sub-menu-item:hover,
@@ -290,11 +290,11 @@
 }
 
 .elementor-643 .elementor-element.elementor-element-9e70c2b div.hfe-nav-menu-icon {
-    color: var(--e-global-color-primary);
+    color: #7a34e5;
 }
 
 .elementor-643 .elementor-element.elementor-element-9e70c2b div.hfe-nav-menu-icon svg {
-    fill: var(--e-global-color-primary);
+    fill: #7a34e5;
 }
 
 @media(max-width:1024px) {

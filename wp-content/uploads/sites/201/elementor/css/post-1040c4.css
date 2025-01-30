@@ -1414,16 +1414,17 @@ body.rtl .elementor-10 .elementor-element.elementor-element-9f6c0aa {
     --margin-block-end: 0px;
     --margin-inline-start: 0px;
     --margin-inline-end: 0px;
-    --padding-block-start: 100px;
-    --padding-block-end: 100px;
-    --padding-inline-start: 180px;
-    --padding-inline-end: 70px;
+    --padding-block-start: 20px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 50px;
+    --padding-inline-end: 10px;
 }
 
-.elementor-10 .elementor-element.elementor-element-95bddde:not(.elementor-motion-effects-element-type-background),
+
+/* .elementor-10 .elementor-element.elementor-element-95bddde:not(.elementor-motion-effects-element-type-background),
 .elementor-10 .elementor-element.elementor-element-95bddde>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: var(--e-global-color-primary);
-}
+} */
 
 
 /* .elementor-10 .elementor-element.elementor-element-95bddde::before,
@@ -1457,18 +1458,18 @@ body.rtl .elementor-10 .elementor-element.elementor-element-9f6c0aa {
 }
 
 .elementor-10 .elementor-element.elementor-element-860606e .skillbar-group .skill-bar {
-    height: 5px;
+    height: 3px;
 }
 
 .elementor-10 .elementor-element.elementor-element-860606e .skillbar-group .skill-track {
-    background-color: var(--e-global-color-b9cb689);
+    background-color: #bb51eb;
 }
 
 .elementor-10 .elementor-element.elementor-element-860606e .skillbar-group .skill-title {
     color: #FFFFFF;
     font-family: var(--e-global-typography-f2ac151-font-family), Sans-serif;
     font-size: var(--e-global-typography-f2ac151-font-size);
-    font-weight: var(--e-global-typography-f2ac151-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-f2ac151-line-height);
     letter-spacing: var(--e-global-typography-f2ac151-letter-spacing);
     word-spacing: var(--e-global-typography-f2ac151-word-spacing);
@@ -1480,18 +1481,18 @@ body.rtl .elementor-10 .elementor-element.elementor-element-9f6c0aa {
 }
 
 .elementor-10 .elementor-element.elementor-element-41298ad .skillbar-group .skill-bar {
-    height: 5px;
+    height: 3px;
 }
 
 .elementor-10 .elementor-element.elementor-element-41298ad .skillbar-group .skill-track {
-    background-color: var(--e-global-color-accent);
+    background-color: #a195f8;
 }
 
 .elementor-10 .elementor-element.elementor-element-41298ad .skillbar-group .skill-title {
     color: var(--e-global-color-0520e81);
     font-family: var(--e-global-typography-f2ac151-font-family), Sans-serif;
     font-size: var(--e-global-typography-f2ac151-font-size);
-    font-weight: var(--e-global-typography-f2ac151-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-f2ac151-line-height);
     letter-spacing: var(--e-global-typography-f2ac151-letter-spacing);
     word-spacing: var(--e-global-typography-f2ac151-word-spacing);
@@ -1503,18 +1504,18 @@ body.rtl .elementor-10 .elementor-element.elementor-element-9f6c0aa {
 }
 
 .elementor-10 .elementor-element.elementor-element-145fd18 .skillbar-group .skill-bar {
-    height: 5px;
+    height: 3px;
 }
 
 .elementor-10 .elementor-element.elementor-element-145fd18 .skillbar-group .skill-track {
-    background-color: var(--e-global-color-b9cb689);
+    background-color: #bb51eb;
 }
 
 .elementor-10 .elementor-element.elementor-element-145fd18 .skillbar-group .skill-title {
     color: var(--e-global-color-0520e81);
     font-family: var(--e-global-typography-f2ac151-font-family), Sans-serif;
     font-size: var(--e-global-typography-f2ac151-font-size);
-    font-weight: var(--e-global-typography-f2ac151-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-f2ac151-line-height);
     letter-spacing: var(--e-global-typography-f2ac151-letter-spacing);
     word-spacing: var(--e-global-typography-f2ac151-word-spacing);
@@ -2807,7 +2808,7 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-4d5be2d .eleme
         --padding-inline-end: 0px;
     }
     .elementor-10 .elementor-element.elementor-element-eb3549b .elementskit-section-title-wraper .elementskit-section-title {
-        font-size: var(--e-global-typography-primary-font-size);
+        font-size: 28px;
         line-height: var(--e-global-typography-primary-line-height);
     }
     .elementor-10 .elementor-element.elementor-element-71111b9>.elementor-widget-container {
@@ -2877,7 +2878,7 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-4d5be2d .eleme
         --margin-inline-start: 0px;
         --margin-inline-end: 0px;
         --padding-block-start: 0px;
-        --padding-block-end: 0px;
+        --padding-block-end: 100px;
         --padding-inline-start: 0px;
         --padding-inline-end: 0px;
     }
@@ -3031,8 +3032,8 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-4d5be2d .eleme
         margin: 0px 0px 0px -15px;
     }
     .elementor-10 .elementor-element.elementor-element-95bddde {
-        --padding-block-start: 100px;
-        --padding-block-end: 100px;
+        --padding-block-start: 0px;
+        --padding-block-end: 15px;
         --padding-inline-start: 30px;
         --padding-inline-end: 20px;
     }
@@ -4667,7 +4668,7 @@ only screen and (hover: none) {
 }
 
 .custom-accordion>.item:last-of-type {
-    background: #462521;
+    background: #edf2f9;
     text-align: center;
     border-radius: 0.5rem;
 }
@@ -5082,4 +5083,244 @@ only screen and (hover: none) {
     font-size: 220px;
     font-weight: 100;
     color: #edf2f9;
+}
+
+#homesec21 {
+    background-image: url(../../../../../images/21/Section21BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 6% 0% 5% 0%;
+}
+
+#homesec21 h4,
+#homesec21 h6 {
+    text-transform: none;
+    color: #fff;
+}
+
+#homesec21 h4 {
+    font-size: 24px;
+    margin: 35px 0px 0px 0px;
+}
+
+#homesec21 h2 {
+    padding: 0% 17% 0% 0%;
+}
+
+#homesec21 .elementor-button {
+    background-color: #fff;
+    color: #362d7e;
+    margin-top: 30px;
+}
+
+#homesec21 .skill-title>span {
+    font-size: 24px;
+    width: 65px;
+    margin-right: 25px;
+}
+
+#homesec22::before {
+    background-image: url(../../../../../images/22/Section22BG.png);
+    opacity: 1;
+}
+
+#homesec22>.e-con-inner {
+    padding: 5% 0%;
+}
+
+#homesec22-1 {
+    position: absolute;
+    left: 0%;
+    height: 100%;
+}
+
+#homesec22-1 img {
+    height: 100%;
+}
+
+#homesec22 h2,
+#homesec22 p {
+    color: #fff;
+}
+
+#homesec22 p {
+    padding-right: 41%;
+}
+
+#homesec22 .elementor-element-ce8dc85 img {
+    padding: 0% 5% 0% 3%;
+}
+
+#homesec22 .elementor-element-a4615ca>.e-con-inner {
+    justify-content: space-between;
+}
+
+#homesec22 form button {
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #9d50d9, #4f48c1);
+    padding: 16px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    #homesec4 .elementor-counter-title {
+        line-height: 1;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    #homesec4 .elementor-counter-number-wrapper {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #homesec4 .elementor-view-stacked .elementor-icon {
+        width: 60px;
+        height: 65px;
+        padding: 8px 10px;
+    }
+    #homesec4 .elementor-element-0137ed9 .elementor-icon,
+    #homesec4 .elementor-element-3aa6c82 .elementor-icon {
+        padding: 15px 7px;
+    }
+    #homesec4-strip h2 {
+        font-size: 26px;
+    }
+    #homesec5 .elementor-element-95bddde {
+        padding: 3% 2% 5% 3%;
+    }
+    #homesec5 ul,
+    #home-mission ul {
+        padding-left: 2rem;
+        padding-right: 0rem;
+    }
+    #homesec5-text,
+    #homemission-text {
+        font-size: 92px;
+        bottom: -17px;
+    }
+    #home-mission .elementor-element-95bddde {
+        padding: 3% 2% 6% 4%;
+    }
+    #homesec5 .elementor-element-c2420b9 {
+        justify-content: center;
+    }
+    #home-mission .elementor-element-c2420b9 {
+        padding: 6% 2% 2% 2%;
+        justify-content: center;
+    }
+    #homesec7 .elementor-element-b21825c .elementor-widget-container {
+        padding: 16px 12px 16px 50px;
+        height: 250px;
+    }
+    #homesec7 .elementor-element-b21825c .elementor-widget-icon-box {
+        margin-bottom: 10px;
+    }
+    #core-values-img {
+        text-align: left;
+    }
+    #core-values-img img {
+        width: 90%;
+    }
+    #homesec8 .ekit-wid-con .image-card-v2 .profile-image-card .hover-area {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #homesec8 .profile-body {
+        padding-bottom: 0%;
+    }
+    #homesec8 .elementor-element-6f541be .profile-body .profile-content {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #homesec8 .profile-body .profile-title {
+        font-size: 20px;
+    }
+    #homesec9-1 .elementor-element-dc26f6c {
+        padding: 4% 0% 4% 0%;
+    }
+    #homesec9-2 {
+        padding-top: 10%;
+    }
+    #homesec9-2 .elementor-element-250e58a {
+        padding: 13% 0% 1% 34%;
+    }
+    #homesec10-2 .elementor-element-250e58a {
+        padding: 18% 0% 1% 42%;
+    }
+    #homesec10-2 {
+        padding: 50px 10px 0px 10px;
+    }
+    #homesec10-2 .elementor-icon-list-items .fa-solid {
+        padding-left: 28px;
+    }
+    #homesec11-1 {
+        margin-bottom: 15%;
+        padding: 10% 0% 6%;
+    }
+    #homesec11-2 .elementor-button-wrapper {
+        margin-bottom: 0px;
+    }
+    #homesec12 h2 {
+        font-size: 28px;
+        padding-right: 0%;
+    }
+    #homesec14 hr {
+        width: 310px;
+    }
+    #homesec16 h2 {
+        font-size: 28px;
+    }
+    #homesec16>.e-con-inner {
+        padding: 2% 0% 4% 0%;
+    }
+    #homesec17 p {
+        width: 44%;
+    }
+    #homesec17 h2 {
+        font-size: 28px;
+        margin-bottom: 1rem;
+    }
+    #homesec17-grap {
+        top: 36%;
+        width: 60%;
+    }
+    #homesec18-1text {
+        margin-bottom: 0px;
+    }
+    #homesec18-1text h2,
+    #homesec19-1text h2 {
+        font-size: 28px;
+    }
+    #homesec18-1text img {
+        margin: -60px 0px 0px 0px;
+    }
+    #homesec16-2 .vc_custom_1456384931539 {
+        padding: 0% 0% 7% 0%;
+    }
+    #roadmap-text {
+        top: 2%;
+    }
+    #roadmap-text h2 {
+        font-size: 145px;
+    }
+    #roadmap-wrap::before {
+        left: 15%;
+        height: calc(100% - 16%);
+    }
+    #homesec21 .elementor-element-c2420b9 {
+        justify-content: center;
+    }
+    .elementor-974 .elementor-element.elementor-element-d044b1b {
+        --padding-block-start: 0px;
+        --padding-block-end: 0px;
+        --padding-inline-end: 25px;
+    }
+    #homesec22 p {
+        padding-right: 6%;
+    }
+    #homesec10-1 .elementor-element-b21825c {
+        padding: 0% 0% 0% 9%;
+    }
 }
