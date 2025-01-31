@@ -14590,5 +14590,16 @@ only screen and (min-resolution: 1.5dppx) {
 @media only screen and (max-width: 600px) {
     .type9 .dt-sc-tabs-horizontal-frame-content {
         padding: 40px 25px 30px 25px;
+        display: block !important;
+    }
+    .type9 ul.dt-sc-tabs-horizontal-frame {
+        display: none;
+    }
+    #homesec20 .vc_col-sm-5 figure {
+        text-align: center;
+        margin: 50px 0px -30px;
+    }
+    #homesec20 .vc_col-sm-5 figure img {
+        width: 80%;
     }
 }

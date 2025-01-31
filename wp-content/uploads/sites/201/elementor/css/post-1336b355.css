@@ -210,6 +210,7 @@
 
 .elementor-1336 .elementor-element.elementor-element-b013e63 .elementor-icon-box-description {
     color: var(--e-global-color-db9e9a8);
+    font-size: 14px;
 }
 
 .elementor-1336 .elementor-element.elementor-element-c096cfa {
@@ -267,6 +268,7 @@
 
 .elementor-1336 .elementor-element.elementor-element-aafb3bb .elementor-icon-box-description {
     color: var(--e-global-color-db9e9a8);
+    font-size: 14px;
 }
 
 .elementor-1336 .elementor-element.elementor-element-0c70acc {
@@ -324,6 +326,7 @@
 
 .elementor-1336 .elementor-element.elementor-element-7a3f19b .elementor-icon-box-description {
     color: var(--e-global-color-db9e9a8);
+    font-size: 14px;
 }
 
 .elementor-1336 .elementor-element.elementor-element-6a6b0e3 {
@@ -754,6 +757,8 @@ body:not(.rtl) .elementor-1336 .elementor-element.elementor-element-91814c6 .ele
     }
     .elementor-1336 .elementor-element.elementor-element-37f90ce {
         --padding-block-start: 38px;
+        margin-top: -258%;
+        z-index: 0;
     }
 }
 
@@ -766,4 +771,17 @@ body:not(.rtl) .elementor-1336 .elementor-element.elementor-element-91814c6 .ele
 
 footer .elementor-element-0fee07f p {
     margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .elementor-1336 .elementor-element.elementor-element-4b9c95c {
+        padding: 0% 16%;
+        margin-top: 215%;
+        z-index: 1;
+    }
+    .elementor-1336 .elementor-element.elementor-element-b013e63 .elementor-icon,
+    .elementor-1336 .elementor-element.elementor-element-aafb3bb .elementor-icon,
+    .elementor-1336 .elementor-element.elementor-element-7a3f19b .elementor-icon {
+        font-size: 22px;
+    }
 }

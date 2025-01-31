@@ -2027,7 +2027,7 @@ body:not(.rtl) .elementor-10 .elementor-element.elementor-element-4d5be2d .eleme
     color: var(--e-global-color-primary);
     background-color: var(--e-global-color-091aacc);
     border-style: dashed;
-    border-width: 2px 2px 2px 2px;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
     border-color: #bdc6d2;
     border-radius: 30px 30px 30px 30px;
 }
@@ -4747,7 +4747,7 @@ only screen and (hover: none) {
     .custom-accordion>.item:last-of-type>.title>.text {
         left: 0rem;
         padding: 0rem 1rem;
-        color: #33354e;
+        color: #68768a;
     }
     .custom-accordion>.item:last-of-type>.content {
         opacity: 1;
@@ -5158,7 +5158,7 @@ only screen and (hover: none) {
 
 #homesec22 form button {
     border: none;
-    border-radius: 2px;
+    border-radius: 0px;
     background: linear-gradient(90deg, #9d50d9, #4f48c1);
     padding: 16px;
     width: 100%;
@@ -5168,6 +5168,35 @@ only screen and (hover: none) {
 #homesec5 ul li,
 #home-mission ul li {
     list-style: none;
+}
+
+#homesec16-2 p {
+    color: #121535;
+}
+
+#homesec22 .form-control {
+    border-radius: 0px;
+}
+
+.float {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 15px;
+    right: 30px;
+    background: linear-gradient(90deg, #9d50d9, #4f48c1);
+    border-radius: 50%;
+    z-index: 100;
+    transition: 1s;
+}
+
+.float:hover {
+    transform: scale(1.2);
+}
+
+.float .fa-arrow-up {
+    font-size: 25px;
+    padding: 15px 20px;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -5513,13 +5542,13 @@ only screen and (hover: none) {
     }
     #homesec15-1,
     #homesec15-2 {
-        padding: 0% 0% 3% 0%;
+        padding: 8% 0% 0% 0%;
     }
     #homesec15 .elementor-element-9aecb5e {
         text-align: center;
     }
     #homesec15 .elementor-element-055ab40 {
-        --padding-block-end: 20px;
+        --padding-block-end: 0px;
     }
     #homesec15 {
         padding-bottom: 92%;
@@ -5591,5 +5620,17 @@ only screen and (hover: none) {
     }
     #main-banner-btn2 {
         padding: 14px 20px 13px 20px !important;
+    }
+    #homesec10-2-2 .elementor-element-055ab40>.e-con-inner {
+        padding-bottom: 0px;
+    }
+    #homesec12 {
+        background-color: #edf2f9;
+        margin-top: 30px;
+    }
+    #homesec12 h3 {
+        font-size: 20px;
+        margin-bottom: 0px !important;
+        text-align: center;
     }
 }
