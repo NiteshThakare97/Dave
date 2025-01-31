@@ -370,11 +370,11 @@
 @media(max-width:767px) {
     .elementor-643 .elementor-element.elementor-element-ecf0733 {
         --margin-block-start: 0px;
-        --margin-block-end: -65px;
+        --margin-block-end: -71px;
         --margin-inline-start: 0px;
         --margin-inline-end: 0px;
-        --padding-block-start: 20px;
-        --padding-block-end: 0px;
+        --padding-block-start: 8px;
+        --padding-block-end: 8px;
         --padding-inline-start: 20px;
         --padding-inline-end: 20px;
     }
@@ -382,7 +382,7 @@
         --width: 50%;
     }
     .elementor-643 .elementor-element.elementor-element-f639064 img {
-        width: 72%;
+        width: 100%;
     }
     .elementor-643 .elementor-element.elementor-element-7823b9e {
         --width: 50%;

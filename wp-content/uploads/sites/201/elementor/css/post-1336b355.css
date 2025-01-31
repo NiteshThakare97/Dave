@@ -756,3 +756,14 @@ body:not(.rtl) .elementor-1336 .elementor-element.elementor-element-91814c6 .ele
         --padding-block-start: 38px;
     }
 }
+
+
+/* My CSS  */
+
+.elementor-1336 .elementor-element.elementor-element-4b9c95c .elementor-social-icons-wrapper .elementor-grid-item {
+    margin: 0px 10px 10px 0px;
+}
+
+footer .elementor-element-0fee07f p {
+    margin-bottom: 0px;
+}
