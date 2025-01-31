@@ -5165,6 +5165,11 @@ only screen and (hover: none) {
     margin-top: 30px;
 }
 
+#homesec5 ul li,
+#home-mission ul li {
+    list-style: none;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-10 .elementor-element.elementor-element-6489f7e {
         --padding-block-start: 190px;
@@ -5189,6 +5194,12 @@ only screen and (hover: none) {
     .elementor-1336 .elementor-element.elementor-element-ab9ef8b:not(.elementor-motion-effects-element-type-background),
     .elementor-1336 .elementor-element.elementor-element-ab9ef8b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-position: bottom;
+    }
+}
+
+@media only screen and (min-width: 1380px) and (max-width: 1600px) {
+    #homesec22-1 {
+        left: 6%;
     }
 }
 
