@@ -4581,7 +4581,7 @@ only screen and (hover: none) {
 #homesec14-texture {
     position: absolute;
     width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
 }
 
 #homesec14-texture img {
