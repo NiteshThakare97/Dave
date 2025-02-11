@@ -35,5 +35,6 @@
 .ehf-header #masthead {
     z-index: 99;
     position: relative;
-    background: #200d5896;
+    /* background: #200d5896; */
+    background: #200d58;
 }
