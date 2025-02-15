@@ -491,6 +491,12 @@ body:not(.rtl) .elementor-1336 .elementor-element.elementor-element-2c7ac44 .ele
     --padding-block-end: 0px;
     --padding-inline-start: 0px;
     --padding-inline-end: 0px;
+    text-align: center;
+}
+
+.elementor-1336 .elementor-element.elementor-element-cb15c49 h3 {
+    color: #fff;
+    font-size: 30px;
 }
 
 .elementor-1336 .elementor-element.elementor-element-6f9fe71 .elementor-heading-title {
