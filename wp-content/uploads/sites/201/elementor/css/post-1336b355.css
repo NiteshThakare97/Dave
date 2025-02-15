@@ -763,7 +763,7 @@ body:not(.rtl) .elementor-1336 .elementor-element.elementor-element-91814c6 .ele
     }
     .elementor-1336 .elementor-element.elementor-element-37f90ce {
         --padding-block-start: 38px;
-        margin-top: -258%;
+        margin-top: -310%;
         z-index: 0;
     }
 }
@@ -781,8 +781,8 @@ footer .elementor-element-0fee07f p {
 
 @media only screen and (max-width: 600px) {
     .elementor-1336 .elementor-element.elementor-element-4b9c95c {
-        padding: 0% 16%;
-        margin-top: 215%;
+        padding: 0% 10%;
+        margin-top: 270%;
         z-index: 1;
     }
     .elementor-1336 .elementor-element.elementor-element-b013e63 .elementor-icon,
