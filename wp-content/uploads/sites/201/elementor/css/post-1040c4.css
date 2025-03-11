@@ -5214,6 +5214,13 @@ only screen and (hover: none) {
     padding: 4% 5%;
 }
 
+#homesec14-graphics table {
+    width: fit-content;
+    margin: 30px auto 0px;
+    color: #dbd4d4;
+    text-align: center;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-10 .elementor-element.elementor-element-6489f7e {
         --padding-block-start: 190px;
