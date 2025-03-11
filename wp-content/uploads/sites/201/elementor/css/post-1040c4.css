@@ -5209,6 +5209,11 @@ only screen and (hover: none) {
     padding: 15px 20px;
 }
 
+#homesec14-graphics {
+    background: #25195b;
+    padding: 4% 5%;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-10 .elementor-element.elementor-element-6489f7e {
         --padding-block-start: 190px;
@@ -5642,6 +5647,9 @@ only screen and (hover: none) {
         font-size: 20px;
         margin-bottom: 0px !important;
         text-align: center;
+    }
+    #homesec14-graphics {
+        padding: 4% 3%;
     }
 }
 
