@@ -4590,7 +4590,8 @@ only screen and (hover: none) {
 }
 
 #homesec14>.e-con-inner {
-    padding: 3% 8% 2% 8%;
+    /* padding: 3% 8% 2% 8%; */
+    padding: 3% 0% 2% 0%;
 }
 
 #homesec14 h2,
@@ -4657,7 +4658,9 @@ only screen and (hover: none) {
 }
 
 .custom-accordion>.item:nth-of-type(2),
-.custom-accordion>.item:nth-of-type(4) {
+.custom-accordion>.item:nth-of-type(4),
+.custom-accordion>.item:nth-of-type(6),
+.custom-accordion>.item:nth-of-type(8) {
     background: #edf2f9;
 }
 
@@ -4689,6 +4692,11 @@ only screen and (hover: none) {
 
 .custom-accordion>.item>.title {
     font-size: 1.5rem;
+}
+
+.tok-cont-title {
+    text-align: center;
+    color: #4c46a2;
 }
 
 @media screen and (min-width: 800px) and (min-height: 270px) {
@@ -4729,7 +4737,7 @@ only screen and (hover: none) {
     }
     .custom-accordion>.item:last-of-type {
         background: #edf2f9;
-        width: 25%;
+        width: 18%;
         border-radius: 0;
     }
     .custom-accordion>.item:last-of-type .heart-icon {
@@ -4763,12 +4771,14 @@ only screen and (hover: none) {
         text-align: center;
         padding: 21px;
         color: #fff;
+        content: attr(Htttppp);
     }
     .custom-accordion>.item:hover:not(:last-of-type)>.title>.text {
         transform: translateX(-50%);
         left: 50%;
         padding: 5px 0px;
         color: aliceblue;
+        text-transform: none;
     }
     .custom-accordion>.item:hover:not(:last-of-type)>.content {
         opacity: 1;
@@ -5632,5 +5642,18 @@ only screen and (hover: none) {
         font-size: 20px;
         margin-bottom: 0px !important;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .tok-cont-title {
+        text-align: left;
+        font-size: 20px;
+    }
+    .tok-cont-title>b {
+        font-weight: 500 !important;
+    }
+    #tokenomics>.custom-accordion>.item>.title {
+        display: none;
     }
 }
