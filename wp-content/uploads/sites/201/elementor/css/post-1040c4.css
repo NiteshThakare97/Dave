@@ -5242,6 +5242,14 @@ only screen and (hover: none) {
     margin-top: 103px;
 }
 
+#mainbanner2-text {
+    position: absolute;
+    z-index: 0;
+    top: 62%;
+    text-align: center;
+    padding: 0% 17%;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-10 .elementor-element.elementor-element-6489f7e {
         --padding-block-start: 190px;
@@ -5272,6 +5280,9 @@ only screen and (hover: none) {
 @media only screen and (min-width: 1380px) and (max-width: 1600px) {
     #homesec22-1 {
         left: 6%;
+    }
+    #mainbanner2-text {
+        padding: 0% 20%;
     }
 }
 
@@ -5439,6 +5450,9 @@ only screen and (hover: none) {
     /* .artboard {
         margin-bottom: 0rem;
     } */
+    #mainbanner2-text {
+        padding: 0% 11%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -5681,6 +5695,10 @@ only screen and (hover: none) {
     }
     #carouselExampleAutoplaying {
         margin-top: 71px;
+    }
+    #mainbanner2-text {
+        padding: 0% 0%;
+        font-size: 11px;
     }
 }
 
