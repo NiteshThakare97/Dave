@@ -5216,6 +5216,7 @@ only screen and (hover: none) {
 #homesec14-graphics {
     background: #25195b;
     padding: 4% 5%;
+    margin-top: -2px;
 }
 
 #homesec14-graphics table {
